@@ -1,0 +1,1205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 4.125rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.875rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.grid{
+    width: 89%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin: 0 auto;
+}
+.clearFloat{
+    width: 100%;
+    clear: both;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: url(../img/EllipseONLogo.png) no-repeat 82px 37px;
+    background-size: 8%;
+}
+header{
+    width: 100vw;
+    height: 11.4375rem;
+    /* background: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 6.625rem;
+    flex-wrap: wrap;
+}
+header h2{
+    font-weight: 700;
+}
+header nav{
+    max-width: 786px;
+    flex-grow: 1;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    flex-grow: 1;
+}
+header nav ul li a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #000;
+}
+.aboutSection{
+    width: 100%;
+    /* height: 52.375rem; */
+    /* background-color: blueviolet; */
+    
+}
+.aboutSection .grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutSection .leftOne{
+    display: inline-block;
+}
+.aboutSection .nameParagraph{
+    font-size: 5.875rem;
+    padding: 0.90625rem 0 0 0.75rem;
+}
+.aboutSection .nameParagraph span{
+    font-weight: 700;
+}
+.aboutSection h1{
+    padding: 9.28125rem 0 0 0.75rem;
+}
+.aboutSection h4{
+    font-weight: 400;
+    float: right;
+    padding-top: 15.1875rem;
+    line-height: 3.0625rem;
+}
+.aboutSection .largestParagraph{
+    max-width: 67.8125rem;
+    text-align: justify;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5.65625rem 0 0 0.75rem;
+    line-height: 3.03125rem;
+
+}
+.aboutSection img{
+    width: 35.1875rem;
+}
+.scrollText{
+    color: rgba(0, 0, 0, 0.2);
+    padding: 4.46875rem 0 0 0.75rem;
+}
+.moreDetailedSection{
+    width: 100%;
+    background: url(../img/bgLargestDisignShape.png) no-repeat;
+    background-size: 100%;
+}
+.moreDetailedSection .grid{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.softwareSection{
+    width: 33.75rem;
+    padding: 5.125rem 0 0 3.4375rem;
+}
+.softwareSection h2{
+    margin-bottom: 6.125rem;
+}
+.softwareSection ul{
+    float: left;
+}
+.softwareSection ul:nth-of-type(2){
+    float: right;
+}
+.softwareSection ul li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 4.3125rem;
+}
+.softwareIconSection{
+    width: 30.4375rem;
+    margin-top: 13.6562rem;
+}
+.softwareIconSection div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.softwareIconSection div:nth-of-type(1){
+    margin-bottom: 5.25rem;
+}
+.softwareIconSection div img{
+    width: 3.9375rem;
+    height: 3.9375rem;
+}
+.languageSection{
+    width: 23.5625rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) ;
+    margin-top: 2.6562rem;
+    padding-bottom: 5.0625rem;
+    background: #fff;
+}
+.languageSection h2{
+    text-align: center;
+    margin-top: 3.375rem;
+}
+.languageSection h3{
+    padding-left: 4.6875rem;
+    margin-top: 5.1875rem;
+}
+.languageSection h3:nth-of-type(2){
+    margin-top: 3.9375rem;
+}
+.languageSection ul{
+    padding-left: 6rem;
+}
+.languageSection ul li{
+    font-size: 1.25rem;
+    line-height: 3.875rem;
+}
+.languageSection ul li:nth-of-type(1){
+    margin-top: 1.25rem;
+}
+.hobbieSection{
+    width: 23.5625rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) ;
+    padding-bottom: 6.3437rem;
+    text-align: center;
+    background: #fff;
+}
+.hobbieSection h2{
+    padding-top: 6.0625rem;
+}
+.hobbieSection h3{
+    padding-top: 3.75rem;
+}
+.technologiesIconSection{
+    width: 27.1875rem;
+    margin-top: 5.6562rem;
+}
+.technologiesIconSection h2{
+    color: #fff;
+}
+.technologiesIconSection div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.technologiesIconSection div{
+    margin-top: 5.25rem;
+}
+.technologiesIconSection div:nth-of-type(1){
+    margin-top: 8.25rem;
+}
+.technologiesIconSection div img{
+    width: 5.25rem;
+}
+
+.technologiesSection{
+    width: 28.0312rem;
+    margin: 17.8125rem 8.7187rem 0 0;
+}
+.technologiesSection ul{
+    float: left;
+}
+.technologiesSection ul:nth-of-type(2){
+    float: right;
+}
+.technologiesSection ul li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 4.25rem;
+    color: #fff;
+}
+.moreDetailedSection .grid:nth-of-type(2){
+    transform: translateY(-70px);
+}
+.moreDetailedSection .grid:nth-of-type(3){
+    background: url(../img/elipsesOnSoftSkills.png) no-repeat 566px 180px;
+    background-size: 27%;
+}
+.designSkillSection{
+    margin-top: 6.875rem;
+}
+.designSkillSection h2{
+    color: #fff;
+    margin-bottom: 5.75rem;
+}
+.designSkillSection div{
+    width: 26.3437rem;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) ;
+    display: flex;
+    justify-content: center;
+}
+.designSkillSection div ul{
+    margin: 1rem 0 4.125rem 0;
+}
+.designSkillSection div ul li{
+    font-size: 1.25rem;
+    line-height: 7.375rem;
+}
+.softSkillsSection{
+    margin-top: 3rem;
+}
+.softSkillsSection h2{
+    line-height: 7.375rem;
+    transform: translateX(-1rem);
+}
+.softSkillsSection ul{
+    margin-top: 0.8437rem;
+}
+.softSkillsSection ul li{
+    font-size: 1.25rem;
+    line-height: 7.375rem;
+}
+.EducationSection{
+    margin-right: 2rem;
+}
+.EducationSection h2{
+    transform: translateX(-1rem);
+}
+.EducationSection ul:nth-of-type(1){
+    margin-top: 4.7812rem;
+}
+.EducationSection ul li{
+    font-size: 1.5rem; 
+}
+.EducationSection h5{
+    line-height: 5.9375rem;
+    margin-left: 5.4375rem;
+}
+.developmentSection h2{
+    margin-top: 5.125rem;
+}
+.developmentSection div{
+    width: 26.4375rem;
+    background: rgba(217, 217, 217, 0.2);
+}
+.developmentSection div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.9375rem;
+}
+.developmentSection div ul li{
+    line-height: 7.375rem;
+}
+.projectSection p{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    transform: translateY(-2rem);
+}
+.projectSection .grid{
+    overflow: hidden;
+}
+.projectSection .grid div{
+    display: flex;
+    animation: 8s infinite sliderAnimation;
+}
+.projectSection .grid div div{
+    display: flex;
+    flex-direction: column;
+}
+.firstRow{
+    margin-top: 3.9375rem;
+}
+.secondRow{
+    margin: 5.125rem 0 8.7812rem 0;
+}
+.projectSection img{
+    width: 32.4375rem;
+    margin: 0 5.75rem 1.1875rem 0;
+}
+.projectSection h5{
+    width: 32.4375rem;
+    line-height: 4.5625rem;
+    background: rgba(217, 217, 217, 0.2);
+    padding-left: 1.875rem;
+}
+@keyframes sliderAnimation{
+    0%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateX(-19rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+}
+
+.detailedProjectPopUp{
+    margin: 0 auto;
+    width: 77.5937rem;
+    background: #fff;
+    padding-right: 4.1875rem;
+    position: absolute;
+    bottom: -212rem;
+    left: 23rem;
+    display: none;
+    transition: all ease-in-out 0.46s;
+    z-index: 800;
+}
+.detailedProjectPopUp.hide{
+    display: block;
+}
+.detailedProjectPopUp > img{
+    width: 58.6562rem;
+    margin: 2.5rem 0 2rem 2.5rem;
+}
+.detailedProjectPopUp > h5{
+    margin:  0 0 0  2.5rem;
+}
+.toolSection{
+    float: right;
+}
+.toolSection h5{
+    margin-top: 2.5rem;
+}
+.sofwareUsed{
+    width: 8.5rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.sofwareUsed img{
+    width: 2.8125rem;
+    margin-top: 4.9375rem;
+    /* padding-right: 1rem; */
+}
+.sofwareUsed img:nth-of-type(2n){
+    /* margin-right: 1rem; */
+    float: right;
+}
+.projectLinks{
+    width: 14.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    margin-bottom: 2rem;
+}
+.projectLinks h5{
+    line-height: 3.125rem;
+}
+.projectLinks img{
+    width: 1.875rem;
+}
+footer{
+    background: rgba(217, 217, 217, 0.2) url(../img/EllipseONFooterLogo.png) no-repeat 1546px 31px;
+    background-size: 8%;
+}
+footer .grid{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperForContAndLink{
+    width: 52.375rem;
+    padding-top: 2.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contactSection a:nth-of-type(1){
+    margin-top: 2.75rem;
+}
+.contactSection a{
+    font-size: 1.25rem;
+    line-height: 2.8125rem;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.contactSection a img{
+    width: 1.75rem;
+    margin-right: 1.5rem;
+}
+
+
+
+.linkSection a:nth-of-type(1){
+    margin-top: 2.75rem;
+}
+.linkSection div{
+    width: 22.1875rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.linkSection div a{
+    font-size: 1.25rem;
+    line-height: 2.8125rem;
+    text-decoration: none;
+    color: #000;
+}
+.linkSection div:nth-of-type(1){
+    margin-top: 6.1875rem;
+}
+.linkSection div:nth-of-type(1) a:nth-of-type(2) {
+    margin-right: 2.6rem;
+}
+.linkSection div a:nth-of-type(2){
+    float: right;
+}
+.linkSection div a img{
+    width: 1.75rem;
+    margin-right: 1.5rem;
+}
+footer .grid h2{
+    margin: 3.5625rem 1.375rem 0 0;
+}
+.forMakescreenDark{
+    width: 100%;
+}
+.forMakescreenDark.extra{
+    height: 303rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    /* z-index: 700; */
+    background: rgba(0, 0, 0, 0.2);
+
+}
+@media (max-width: 320px){
+    html{
+        font-size: 6px;
+    }
+    body{
+        background: none;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 2.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+    }
+    .softwareIconSection{
+        margin-top: 4.6562rem;
+    }
+    .languageSection {
+        margin-top: 5.6562rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+    }
+    .technologiesIconSection {
+        margin-top: 0rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 4.8125rem 0 0 0;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .EducationSection {
+        margin: 4rem 2rem 0 4rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 47.4375rem;
+    }
+    .projectSection h5 {
+        width: 47.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-80rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: none;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 53.5937rem;
+        padding-right: 3rem;
+        bottom: -403rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 36.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 321px) and (max-width: 420px){
+
+    html{
+        font-size: 7.5px;
+    }
+    body{
+        background: none;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 2.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+    }
+    .softwareIconSection{
+        margin-top: 4.6562rem;
+    }
+    .languageSection {
+        margin-top: 5.6562rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+    }
+    .technologiesIconSection {
+        margin-top: 0rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 4.8125rem 0 0 0;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .EducationSection {
+        margin: 4rem 2rem 0 4rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 47.4375rem;
+    }
+    .projectSection h5 {
+        width: 47.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-80rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: none;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 55.5937rem;
+        padding-right: 3rem;
+        bottom: -403rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 37.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 421px) and (max-width: 576px){
+    html{
+        font-size: 7.5px;
+    }
+    body{
+        background: none;
+    }
+    header h2{
+        padding-right: 3rem;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 5.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+        margin-right: 4rem;
+    }
+    .softwareIconSection{
+        margin-top: 9.6562rem;
+    }
+    .languageSection {
+        margin: 5.6562rem 0 0 4rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+        position: absolute;
+        top: -46rem;
+        right: 4rem;
+    }
+    .technologiesIconSection {
+        margin-top: 0rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 4.8125rem 0 0 0;
+    }
+    .designSkillSection {
+        margin: 6.875rem 0 0 4rem;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .softSkillsSection {
+        margin: 10rem 4rem 0 0;
+    }
+    .eduAndDevSectionWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .EducationSection {
+        margin: 4rem 0rem 0 7rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 64.4375rem;
+    }
+    .projectSection h5 {
+        width: 64.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-104rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: none;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 76.5937rem;
+        padding-right: 3rem;
+        bottom: -273rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 59.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+    html{
+        font-size: 10px;
+    }
+    body{
+        background: none;
+    }
+    header h2{
+        padding-right: 3rem;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 5.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+        margin-right: 4rem;
+    }
+    .softwareIconSection{
+        margin-top: 9.6562rem;
+    }
+    .languageSection {
+        margin: 5.6562rem 0 0 4rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+        position: absolute;
+        top: -46rem;
+        right: 4rem;
+    }
+    .technologiesIconSection {
+        margin-left: 4rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 17.8125rem 2rem 0 0;
+    }
+    .designSkillSection {
+        margin: 6.875rem 0 0 4rem;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .softSkillsSection {
+        margin: 10rem 4rem 0 0;
+    }
+    .eduAndDevSectionWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .EducationSection {
+        margin: 4rem 0rem 0 7rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 64.4375rem;
+    }
+    .projectSection h5 {
+        width: 64.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-104rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: block;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 76.5937rem;
+        padding-right: 3rem;
+        bottom: -311rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 59.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    html{
+        font-size: 12px;
+    }
+    body{
+        background: none;
+    }
+    header {
+        padding: 0px 7.625rem;
+    }
+    header h2{
+        padding-right: 3rem;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 5.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+        margin-right: 4rem;
+    }
+    .softwareIconSection{
+        margin-top: 9.6562rem;
+    }
+    .languageSection {
+        margin: 5.6562rem 0 0 4rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+        position: absolute;
+        top: -46rem;
+        right: 4rem;
+    }
+    .technologiesIconSection {
+        margin-left: 4rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 17.8125rem 2rem 0 0;
+    }
+    .designSkillSection {
+        margin: 6.875rem 0 0 4rem;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .softSkillsSection {
+        margin: 10rem 4rem 0 0;
+    }
+    .eduAndDevSectionWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .EducationSection {
+        margin: 4rem 0rem 0 7rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 32.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-37.5rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: block;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 82.5937rem;
+        padding-right: 3rem;
+        bottom: -311rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 65.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    html{
+        font-size: 14px;
+    }
+    body{
+        background: none;
+    }
+    header {
+        padding: 0px 9.625rem;
+    }
+    header h2{
+        padding-right: 3rem;
+    }
+    .aboutSection .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection .nameParagraph {
+        font-size: 3.875rem;
+    }
+    .aboutSection .largestParagraph {
+        padding: 5.65625rem 0 0 0.75rem;
+    }
+    .moreDetailedSection{
+        background: none;
+    }
+    .moreDetailedSection .grid{
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+    }
+    .softwareSection{
+        padding: 0.125rem 0 0 3.4375rem;
+        margin-right: 4rem;
+    }
+    .softwareIconSection{
+        margin-top: 9.6562rem;
+    }
+    .languageSection {
+        margin: 5.6562rem 0 0 4rem;
+    }
+    .moreDetailedSection .grid:nth-of-type(2) {
+        transform: translateY(0px);
+    }
+    .moreDetailedSection .grid:nth-of-type(3){
+        background: none;
+    }
+    .hobbieSection {
+        margin-top: 5rem;
+        position: absolute;
+        top: -46rem;
+        right: 4rem;
+    }
+    .technologiesIconSection {
+        margin-left: 4rem;
+    }
+    .technologiesSection ul li{
+        color: #000;
+    }
+    .technologiesSection {
+        margin: 17.8125rem 2rem 0 0;
+    }
+    .designSkillSection {
+        margin: 6.875rem 0 0 4rem;
+    }
+    .designSkillSection h2 {
+        color: #000;
+    }
+    .softSkillsSection {
+        margin: 10rem 4rem 0 0;
+    }
+    .eduAndDevSectionWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .EducationSection {
+        margin: 4rem 0rem 0 7rem;
+    }
+    .projectSection p {
+        margin-top: 3rem;
+        transform: translateY(0rem);
+    }
+    .projectSection img {
+        width: 32.4375rem;
+    }
+    @keyframes sliderAnimation{
+        0%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(-37.5rem);
+        }
+        100%{
+            transform: translateX(0rem);
+        }
+    }
+    .projectSection .grid div {
+        animation: 20s infinite sliderAnimation;
+    }
+    footer{
+        background: rgba(217, 217, 217, 0.2);
+    }
+    footer h2 {
+        font-size: 1.25rem;
+        display: block;
+    }
+    .detailedProjectPopUp {
+        margin: 0 auto;
+        width: 85.5937rem;
+        padding-right: 3rem;
+        bottom: -311rem;
+        left: 0rem;
+    }
+    .detailedProjectPopUp > img {
+        width: 66.6562rem;
+    }
+    .forMakescreenDark.extra {
+        height: 590rem;
+    }
+    .linkSection div a:nth-of-type(2) {
+        float: none;
+        margin-left: 2rem;
+    }
+}
